@@ -1,0 +1,103 @@
+{
+  "run_id": "nb05_20260124T042657Z_2af2592e",
+  "notebook_name": "05_truth_matching_side_table_bound_fullwell_compatible_all_caches_offaware.ipynb",
+  "created_at_utc": "2026-01-24T04:32:25.155661+00:00",
+  "repo_root": "/Users/baghnatios/Desktop/spot-detection-meta",
+  "matching_algorithm": "hungarian_thresholded",
+  "matching_registry_version": "matching_v1_crop_hungarian_medoid_refined_halo",
+  "truth_match_radius_px": 8.0,
+  "negative_generation_policy": "any_annotated_crop",
+  "explicit_negative_match_radius_px": 8.0,
+  "split_registry_version": "v1_nb05",
+  "sample_weight_strategy": "balanced",
+  "counts": {
+    "n_matched_positive": 300,
+    "n_negative": 0,
+    "n_false_negative": 3,
+    "n_hard_negative": 564,
+    "n_supervised_total": 864,
+    "detection_recall": 0.9900990099009901,
+    "positive_rate": 1.0,
+    "n_splits_train": 37,
+    "n_splits_cal": 7,
+    "n_splits_test": 6,
+    "w_pos": 1.44,
+    "w_neg": 0.7659574468085106
+  },
+  "inputs": {
+    "detector_cache_dir": "/Users/baghnatios/Desktop/spot-detection-meta/artifacts/detector_cache/fullwell_parity_v1",
+    "feature_family_cache_dir": "/Users/baghnatios/Desktop/spot-detection-meta/artifacts/feature_family_cache/fullwell_parity_v1",
+    "feature_family_tables": {
+      "F1_photometry": "/Users/baghnatios/Desktop/spot-detection-meta/artifacts/feature_family_cache/fullwell_parity_v1/F1_photometry.parquet",
+      "F2_responses": "/Users/baghnatios/Desktop/spot-detection-meta/artifacts/feature_family_cache/fullwell_parity_v1/F2_responses.parquet",
+      "F3_spatial": "/Users/baghnatios/Desktop/spot-detection-meta/artifacts/feature_family_cache/fullwell_parity_v1/F3_spatial.parquet",
+      "F4_consensus": "/Users/baghnatios/Desktop/spot-detection-meta/artifacts/feature_family_cache/fullwell_parity_v1/F4_consensus.parquet",
+      "F5_barcode": "/Users/baghnatios/Desktop/spot-detection-meta/artifacts/feature_family_cache/fullwell_parity_v1/F5_barcode.parquet",
+      "F6_regime_stub": "/Users/baghnatios/Desktop/spot-detection-meta/artifacts/feature_family_cache/fullwell_parity_v1/F6_regime_stub.parquet",
+      "F7_shape": "/Users/baghnatios/Desktop/spot-detection-meta/artifacts/feature_family_cache/fullwell_parity_v1/F7_shape.parquet",
+      "F8_rank_stub": "/Users/baghnatios/Desktop/spot-detection-meta/artifacts/feature_family_cache/fullwell_parity_v1/F8_rank_stub.parquet",
+      "F9_perchannel": "/Users/baghnatios/Desktop/spot-detection-meta/artifacts/feature_family_cache/fullwell_parity_v1/F9_perchannel.parquet",
+      "F9B_profile_stub": "/Users/baghnatios/Desktop/spot-detection-meta/artifacts/feature_family_cache/fullwell_parity_v1/F9B_profile_stub.parquet",
+      "F10_background": "/Users/baghnatios/Desktop/spot-detection-meta/artifacts/feature_family_cache/fullwell_parity_v1/F10_background.parquet"
+    },
+    "offtrain_detector_cache_dir": null,
+    "offtrain_feature_cache_dir": null,
+    "offaware_aug_cache_dir": null
+  },
+  "parity_contract": {
+    "candidate_source": "NB03/04 full-well outputs",
+    "crop_registry_role": "QA crop masking only",
+    "recomputed_features_in_nb05": false,
+    "recomputed_proposers_in_nb05": false,
+    "loaded_feature_family_caches": true,
+    "loaded_detector_method_caches": true,
+    "loaded_offtrain_detector_caches": false,
+    "loaded_offtrain_feature_caches": false,
+    "loaded_offaware_aug_caches": false,
+    "joined_offaware_aug_into_training_supervision": false,
+    "strict_upstream_cache_validation": false
+  },
+  "upstream_cache_audit": {
+    "detector_cache_dir": "/Users/baghnatios/Desktop/spot-detection-meta/artifacts/detector_cache/fullwell_parity_v1",
+    "feature_family_cache_dir": "/Users/baghnatios/Desktop/spot-detection-meta/artifacts/feature_family_cache/fullwell_parity_v1",
+    "feature_family_cache_loaded": true,
+    "detector_method_cache_loaded": true,
+    "validated_against_candidate_raw": true,
+    "validated_against_mega_feature_table": true,
+    "notes": [
+      "Mega feature table columns not represented in per-family caches: ['bgscale_hp_energy_primary', 'bgscale_log_energy_s3_primary', 'bgscale_raw_std_primary', 'psf_raw_amplitude_global_norm', 'resp_highpass_center_global_norm']"
+    ],
+    "offtrain_cache_audit": {
+      "offtrain_detector_cache_dir": null,
+      "offtrain_feature_cache_dir": null,
+      "offaware_aug_cache_dir": null,
+      "loaded_offtrain_detector_tables": false,
+      "loaded_offtrain_feature_tables": false,
+      "loaded_offaware_aug_tables": false,
+      "validated_offtrain_detector_tables": false,
+      "validated_offtrain_feature_tables": false,
+      "validated_offaware_aug_tables": false,
+      "notes": []
+    }
+  },
+  "outputs": {
+    "candidate_to_truth_match": "/Users/baghnatios/Desktop/spot-detection-meta/tables/nb05_20260124T042657Z_2af2592e_candidate_to_truth_match.parquet",
+    "training_supervision_table": "/Users/baghnatios/Desktop/spot-detection-meta/tables/nb05_20260124T042657Z_2af2592e_training_supervision_table.parquet",
+    "truth_evaluation_summary": "/Users/baghnatios/Desktop/spot-detection-meta/tables/nb05_20260124T042657Z_2af2592e_truth_evaluation_summary.parquet",
+    "splits": "/Users/baghnatios/Desktop/spot-detection-meta/tables/nb05_20260124T042657Z_2af2592e_splits.parquet",
+    "matching_timing": "/Users/baghnatios/Desktop/spot-detection-meta/tables/nb05_20260124T042657Z_2af2592e_matching_timing.parquet",
+    "crop_match_summary": "/Users/baghnatios/Desktop/spot-detection-meta/tables/nb05_20260124T042657Z_2af2592e_crop_match_summary.parquet",
+    "upstream_feature_family_summary": "/Users/baghnatios/Desktop/spot-detection-meta/tables/nb05_20260124T042657Z_2af2592e_upstream_feature_family_summary.parquet",
+    "upstream_feature_family_audit": "/Users/baghnatios/Desktop/spot-detection-meta/tables/nb05_20260124T042657Z_2af2592e_upstream_feature_family_audit.parquet",
+    "upstream_detector_method_summary": "/Users/baghnatios/Desktop/spot-detection-meta/tables/nb05_20260124T042657Z_2af2592e_upstream_detector_method_summary.parquet",
+    "upstream_detector_cache_audit": "/Users/baghnatios/Desktop/spot-detection-meta/tables/nb05_20260124T042657Z_2af2592e_upstream_detector_cache_audit.parquet",
+    "upstream_offtrain_summary": null,
+    "upstream_offtrain_method_summary": null,
+    "upstream_offtrain_detector_cache_audit": null,
+    "upstream_offtrain_feature_summary": null,
+    "upstream_offtrain_feature_audit": null,
+    "upstream_offaware_aug_summary": null,
+    "upstream_offaware_aug_audit": null,
+    "report_dir": "/Users/baghnatios/Desktop/spot-detection-meta/artifacts/reports/nb05_truth_matching"
+  }
+}

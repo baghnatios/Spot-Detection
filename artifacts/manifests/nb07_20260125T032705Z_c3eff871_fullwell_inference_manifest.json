@@ -1,0 +1,98 @@
+{
+  "run_id": "nb07_20260125T032705Z_c3eff871",
+  "notebook_name": "07_fullwell_inference.ipynb",
+  "created_at_utc": "2026-01-25T03:27:15.631416+00:00",
+  "primary_model_id": "lgbm_tuned",
+  "model_nb06_run_id": "nb06_20260124T172633Z_5cf12d26",
+  "nb03_run_id": null,
+  "decision_threshold": 0.6,
+  "threshold_policy": "max_f1",
+  "inference_registry_version": "v1_nb07_fullwell",
+  "n_candidates_total": 5955,
+  "n_predicted_positive": 2872,
+  "wells": [
+    "C8",
+    "D8"
+  ],
+  "nb06_reported_test_metrics": {
+    "roc_auc": 0.8771306818181819,
+    "avg_precision": 0.8142453275102429,
+    "brier": 0.14073660064862709,
+    "logloss": 0.8127836590960713,
+    "ece": 0.12086318166265508,
+    "f1": 0.8314606741573034,
+    "precision": 0.8222222222222222,
+    "recall": 0.8409090909090909,
+    "tn": 40,
+    "fp": 8,
+    "fn": 7,
+    "tp": 37,
+    "threshold": 0.6,
+    "n_pos": 44,
+    "n_total": 92,
+    "pos_rate": 0.4782608695652174
+  },
+  "nb07_qc_metrics": {
+    "test": {
+      "label": "fw_test",
+      "n": 66,
+      "n_pos": 31,
+      "threshold": 0.6,
+      "roc_auc": 1.0,
+      "avg_precision": 1.0,
+      "brier": 0.0016075105499192182,
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tn": 35,
+      "fp": 0,
+      "fn": 0,
+      "tp": 31
+    },
+    "calibration": {
+      "label": "fw_calibration",
+      "n": 171,
+      "n_pos": 16,
+      "threshold": 0.6,
+      "roc_auc": 0.9870967741935484,
+      "avg_precision": 0.8233018207282914,
+      "brier": 0.024184364565900996,
+      "f1": 0.8484848484848485,
+      "precision": 0.8235294117647058,
+      "recall": 0.875,
+      "tn": 152,
+      "fp": 3,
+      "fn": 2,
+      "tp": 14
+    },
+    "train": {
+      "label": "fw_train",
+      "n": 624,
+      "n_pos": 252,
+      "threshold": 0.6,
+      "roc_auc": 0.9840896484041646,
+      "avg_precision": 0.9669016360276657,
+      "brier": 0.026415351753316968,
+      "f1": 0.9623762376237623,
+      "precision": 0.9604743083003953,
+      "recall": 0.9642857142857143,
+      "tn": 362,
+      "fp": 10,
+      "fn": 9,
+      "tp": 243
+    }
+  },
+  "parity_tol": 0.0001,
+  "inputs": {
+    "candidate_union": "/Users/baghnatios/Desktop/spot-detection-meta/tables/nb03_20260124T024537Z_066ded0c_candidate_union.parquet",
+    "candidate_features": "/Users/baghnatios/Desktop/spot-detection-meta/tables/nb03_20260124T024537Z_066ded0c_candidate_features.parquet",
+    "model": "/Users/baghnatios/Desktop/spot-detection-meta/artifacts/models/nb06_20260124T172633Z_5cf12d26_lgbm_tuned_calibrated.pkl",
+    "feature_cols": "/Users/baghnatios/Desktop/spot-detection-meta/artifacts/models/nb06_20260124T172633Z_5cf12d26_feature_cols.pkl",
+    "clip_bounds": "/Users/baghnatios/Desktop/spot-detection-meta/artifacts/models/nb06_20260124T172633Z_5cf12d26_clip_bounds.pkl",
+    "train_medians": "/Users/baghnatios/Desktop/spot-detection-meta/artifacts/models/nb06_20260124T172633Z_5cf12d26_train_medians.pkl"
+  },
+  "outputs": {
+    "fullwell_predictions": "/Users/baghnatios/Desktop/spot-detection-meta/tables/nb07_20260125T032705Z_c3eff871_fullwell_predictions.parquet",
+    "qc_eval_table": "/Users/baghnatios/Desktop/spot-detection-meta/artifacts/reports/nb07_fullwell_inference/nb07_20260125T032705Z_c3eff871_qc_eval_table.parquet"
+  }
+}

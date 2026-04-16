@@ -1,0 +1,431 @@
+{
+  "run_id": "nb03_20260124T024537Z_066ded0c",
+  "notebook_name": "nb03_nb04_candidate_universe_features_fullwell.ipynb",
+  "execution_mode": "full_well",
+  "repo_root": "/Users/baghnatios/Desktop/spot-detection-meta",
+  "data_root": "/Users/baghnatios/Desktop/spot_detection",
+  "qa_crop_registry_path": "/Users/baghnatios/Desktop/spot-detection-meta/tables/retune_03A_crop_registry_with_status.parquet",
+  "n_full_wells": 2,
+  "fullwell_ids": [
+    "fullwell_C8",
+    "fullwell_D8"
+  ],
+  "n_qa_crops": 50,
+  "n_candidate_raw": 55814,
+  "n_candidate_union": 5955,
+  "n_off_channel_negative_candidates": 16269,
+  "n_candidate_membership": 55814,
+  "n_candidate_clusters": 5365,
+  "n_features": 433,
+  "n_methods": 18,
+  "paths": {
+    "detector_cache_dir": "/Users/baghnatios/Desktop/spot-detection-meta/artifacts/detector_cache/fullwell_parity_v1",
+    "feature_family_cache_dir": "/Users/baghnatios/Desktop/spot-detection-meta/artifacts/feature_family_cache/fullwell_parity_v1",
+    "candidate_raw": "/Users/baghnatios/Desktop/spot-detection-meta/tables/nb03_20260124T024537Z_066ded0c_candidate_raw.parquet",
+    "candidate_union": "/Users/baghnatios/Desktop/spot-detection-meta/tables/nb03_20260124T024537Z_066ded0c_candidate_union.parquet",
+    "candidate_union_membership": "/Users/baghnatios/Desktop/spot-detection-meta/tables/nb03_20260124T024537Z_066ded0c_candidate_union_membership.parquet",
+    "candidate_clusters": "/Users/baghnatios/Desktop/spot-detection-meta/tables/nb03_20260124T024537Z_066ded0c_candidate_clusters.parquet",
+    "candidate_features": "/Users/baghnatios/Desktop/spot-detection-meta/tables/nb03_20260124T024537Z_066ded0c_candidate_features.parquet",
+    "detector_summary": "/Users/baghnatios/Desktop/spot-detection-meta/tables/nb03_20260124T024537Z_066ded0c_detector_run_summary.parquet",
+    "off_channel_negative_candidates": "/Users/baghnatios/Desktop/spot-detection-meta/tables/nb03_20260124T024537Z_066ded0c_off_channel_negative_candidates.parquet",
+    "fullwell_registry": "/Users/baghnatios/Desktop/spot-detection-meta/tables/nb03_20260124T024537Z_066ded0c_fullwell_registry.parquet",
+    "crop_registry": "/Users/baghnatios/Desktop/spot-detection-meta/tables/nb03_20260124T024537Z_066ded0c_crop_registry.parquet",
+    "qa_crop_registry_snapshot": "/Users/baghnatios/Desktop/spot-detection-meta/tables/nb03_20260124T024537Z_066ded0c_qa_crop_registry_snapshot.parquet",
+    "well_bg_scales": "/Users/baghnatios/Desktop/spot-detection-meta/tables/nb03_20260124T024537Z_066ded0c_well_bg_scales.json",
+    "feature_family_tables": {
+      "F1_photometry": "/Users/baghnatios/Desktop/spot-detection-meta/artifacts/feature_family_cache/fullwell_parity_v1/F1_photometry.parquet",
+      "F2_responses": "/Users/baghnatios/Desktop/spot-detection-meta/artifacts/feature_family_cache/fullwell_parity_v1/F2_responses.parquet",
+      "F3_spatial": "/Users/baghnatios/Desktop/spot-detection-meta/artifacts/feature_family_cache/fullwell_parity_v1/F3_spatial.parquet",
+      "F4_consensus": "/Users/baghnatios/Desktop/spot-detection-meta/artifacts/feature_family_cache/fullwell_parity_v1/F4_consensus.parquet",
+      "F5_barcode": "/Users/baghnatios/Desktop/spot-detection-meta/artifacts/feature_family_cache/fullwell_parity_v1/F5_barcode.parquet",
+      "F6_regime_stub": "/Users/baghnatios/Desktop/spot-detection-meta/artifacts/feature_family_cache/fullwell_parity_v1/F6_regime_stub.parquet",
+      "F7_shape": "/Users/baghnatios/Desktop/spot-detection-meta/artifacts/feature_family_cache/fullwell_parity_v1/F7_shape.parquet",
+      "F8_rank_stub": "/Users/baghnatios/Desktop/spot-detection-meta/artifacts/feature_family_cache/fullwell_parity_v1/F8_rank_stub.parquet",
+      "F9_perchannel": "/Users/baghnatios/Desktop/spot-detection-meta/artifacts/feature_family_cache/fullwell_parity_v1/F9_perchannel.parquet",
+      "F9B_profile_stub": "/Users/baghnatios/Desktop/spot-detection-meta/artifacts/feature_family_cache/fullwell_parity_v1/F9B_profile_stub.parquet",
+      "F10_background": "/Users/baghnatios/Desktop/spot-detection-meta/artifacts/feature_family_cache/fullwell_parity_v1/F10_background.parquet"
+    }
+  },
+  "config": {
+    "repo_root": "/Users/baghnatios/Desktop/spot-detection-meta",
+    "data_root_candidates": [
+      "/Users/baghnatios/Desktop/spot_detection",
+      "/Users/baghnatios/Desktop/spot_detection/spot_detection",
+      "/Users/baghnatios/Desktop/spot-detection-meta/data",
+      "/Users/baghnatios/Desktop"
+    ],
+    "crop_registry_search_dirs": [
+      "/Users/baghnatios/Desktop/spot-detection-meta/annotations/crop_registry",
+      "/Users/baghnatios/Desktop/spot-detection-meta/tables",
+      "/Users/baghnatios/Desktop/spot-detection-meta/artifacts",
+      "/Users/baghnatios/Desktop/spot-detection-meta"
+    ],
+    "execution_mode": "full_well",
+    "well_allowlist": [
+      "C8",
+      "D8"
+    ],
+    "crop_id_allowlist": null,
+    "max_crops_total": null,
+    "panel_to_folder_wl": {
+      "C1_638": [
+        "Cycle1_view",
+        "638"
+      ],
+      "C4_638": [
+        "Cycle4_view",
+        "638"
+      ],
+      "C4_561": [
+        "Cycle4_view",
+        "561"
+      ],
+      "C5_638": [
+        "Cycle5_view",
+        "638"
+      ],
+      "C5_561": [
+        "Cycle5_view",
+        "561"
+      ]
+    },
+    "mentor_required_panels": [
+      "C1_638",
+      "C4_561",
+      "C4_638",
+      "C5_561",
+      "C5_638"
+    ],
+    "barcode_panels": [
+      "C1_638",
+      "C4_638",
+      "C4_561",
+      "C5_638",
+      "C5_561"
+    ],
+    "barcode_on_panels": {
+      "C8": [
+        "C1_638",
+        "C4_638",
+        "C4_561"
+      ],
+      "D8": [
+        "C5_638",
+        "C5_561",
+        "C1_638"
+      ]
+    },
+    "barcode_off_panels": {
+      "C8": [
+        "C5_638",
+        "C5_561"
+      ],
+      "D8": [
+        "C4_638",
+        "C4_561"
+      ]
+    },
+    "norm_percentiles": "(1, 99)",
+    "white_local_sigma_px": 6.0,
+    "peak_bg_sigma_small_px": 1.2,
+    "peak_bg_sigma_large_px": 6.0,
+    "z_local_sigma_px": 6.0,
+    "highpass_sigma_px": 3.0,
+    "rolling_ball_radius_px": 9,
+    "opening_recon_radius_px": 7,
+    "wavelet_sigmas_px": [
+      1.0,
+      2.0,
+      4.0
+    ],
+    "matched_filter_sigma_px": 2.0,
+    "radial_symmetry_radius_px": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "hessian_sigma_px": 2.0,
+    "shape_gate": {
+      "enabled": true,
+      "patch_radius": 5,
+      "sigma_gradient": 1.0,
+      "sigma_tensor": 2.0,
+      "min_blobness": 0.15,
+      "min_peak_snr": 2.0
+    },
+    "per_method_panel_budget": 800,
+    "per_crop_total_budget": 5000,
+    "merge_radius_px": 5.0,
+    "cluster_radius_px": 12.0,
+    "mentor_v1": {
+      "sigma": 8.0,
+      "min_distance": 1,
+      "threshold_space": "normalized",
+      "threshold_561": 0.999,
+      "threshold_638": 0.999,
+      "log_threshold": null,
+      "log_threshold_percentile": 70,
+      "min_area": 1,
+      "consensus_k": 3,
+      "consensus_radius": 5
+    },
+    "mentor_v2": {
+      "sigma": 8.0,
+      "min_distance": 1,
+      "threshold_space": "normalized",
+      "threshold_561": 0.999,
+      "threshold_638": 0.999,
+      "consensus_k": 3,
+      "consensus_radius": 5,
+      "exclude_border": true,
+      "auto_norm_percentiles": [
+        1,
+        99
+      ]
+    },
+    "mentor_v1_k2": {
+      "sigma": 8.0,
+      "min_distance": 1,
+      "threshold_space": "normalized",
+      "threshold_561": 0.999,
+      "threshold_638": 0.999,
+      "log_threshold": null,
+      "log_threshold_percentile": 70,
+      "min_area": 1,
+      "consensus_k": 2,
+      "consensus_radius": 5
+    },
+    "mentor_v1_k4": {
+      "sigma": 8.0,
+      "min_distance": 1,
+      "threshold_space": "normalized",
+      "threshold_561": 0.999,
+      "threshold_638": 0.999,
+      "log_threshold": null,
+      "log_threshold_percentile": 70,
+      "min_area": 1,
+      "consensus_k": 4,
+      "consensus_radius": 5
+    },
+    "mentor_v1_tight": {
+      "sigma": 8.0,
+      "min_distance": 1,
+      "threshold_space": "normalized",
+      "threshold_561": 0.999,
+      "threshold_638": 0.999,
+      "log_threshold": null,
+      "log_threshold_percentile": 70,
+      "min_area": 1,
+      "consensus_k": 3,
+      "consensus_radius": 3
+    },
+    "starfish_blob_cfg": {
+      "min_sigma": 1.0,
+      "max_sigma": 5.0,
+      "num_sigma": 5,
+      "threshold": 1.5,
+      "overlap": 0.5,
+      "log_scale": true
+    },
+    "sf_method_A": {
+      "name": "sf_A_sumnorm_snr",
+      "method": "A",
+      "snr_k": 8,
+      "min_panels": 2
+    },
+    "sf_method_D": {
+      "name": "sf_D_crosscorr",
+      "method": "D",
+      "ncc_thresh": 0.05,
+      "patch_r": 3,
+      "search_r": 2,
+      "snr_k": 0
+    },
+    "sf_method_G": {
+      "name": "sf_G_union",
+      "method": "G",
+      "A_snr": 8,
+      "D_ncc": 0.05,
+      "D_patch_r": 3,
+      "D_search_r": 2,
+      "regate_snr": 5,
+      "merge_r": 5
+    },
+    "panel_registration_offsets": {
+      "C8": {
+        "C1_638": [
+          0.0,
+          0.0
+        ],
+        "C4_638": [
+          -0.1,
+          0.0
+        ],
+        "C4_561": [
+          -0.1,
+          0.0
+        ],
+        "C5_638": [
+          0.05,
+          -0.15
+        ],
+        "C5_561": [
+          0.0,
+          -0.1
+        ]
+      },
+      "D8": {
+        "C1_638": [
+          0.0,
+          0.0
+        ],
+        "C4_638": [
+          -0.15,
+          -0.1
+        ],
+        "C4_561": [
+          -0.3,
+          -0.1
+        ],
+        "C5_638": [
+          0.3,
+          -2.55
+        ],
+        "C5_561": [
+          0.2,
+          -2.25
+        ]
+      }
+    },
+    "new_proposers": {
+      "p03_perturb": {
+        "alpha": 1.5,
+        "smooth_sigma": 1.0,
+        "abs_threshold": 2450.0,
+        "min_distance": 4
+      },
+      "p04_dog_1_2": {
+        "sigma1": 1.0,
+        "sigma2": 2.0,
+        "abs_threshold": 2500.0,
+        "min_distance": 4
+      },
+      "p04_dog_1_3": {
+        "sigma1": 1.0,
+        "sigma2": 3.0,
+        "abs_threshold": 2500.0,
+        "min_distance": 4
+      },
+      "p04_dog_1_4": {
+        "sigma1": 1.0,
+        "sigma2": 4.0,
+        "abs_threshold": 2500.0,
+        "min_distance": 4
+      },
+      "p05_log": {
+        "sigmas": [
+          1.5,
+          2.0,
+          3.0
+        ],
+        "abs_threshold": 2300.0,
+        "min_distance": 4
+      },
+      "p06_highpass": {
+        "bg_sigma": 2.0,
+        "abs_threshold": 2500.0,
+        "min_distance": 4
+      },
+      "p10_bright_rescue": {
+        "use_log1p": false,
+        "abs_threshold": 10000.0,
+        "min_distance": 4
+      },
+      "p24_onmax_raw": {
+        "abs_threshold": 5000.0,
+        "min_distance": 4
+      },
+      "p27_perch_min": {
+        "bg_sigma": 5.0,
+        "abs_threshold": 2300.0,
+        "min_distance": 4
+      },
+      "p29_dog_multiscale": {
+        "dog_pairs": [
+          [
+            1.0,
+            2.0
+          ],
+          [
+            1.0,
+            3.0
+          ],
+          [
+            1.0,
+            4.0
+          ],
+          [
+            1.5,
+            5.0
+          ],
+          [
+            2.0,
+            7.0
+          ]
+        ],
+        "abs_threshold": 2800.0,
+        "min_distance": 4
+      }
+    },
+    "spotiflow_pretrained": "hybiss",
+    "spotiflow_prob_threshold": 0.41,
+    "spotiflow_min_distance": 3,
+    "spotiflow_n_epochs": 50,
+    "spotiflow_force_retrain": true,
+    "spotiflow_lr": 0.0003,
+    "patch_inner_radius_px": 3,
+    "patch_ring1_inner_px": 3,
+    "patch_ring1_outer_px": 7,
+    "patch_ring2_inner_px": 7,
+    "patch_ring2_outer_px": 12,
+    "log_sigmas_feat": [
+      2.0,
+      4.0,
+      8.0
+    ],
+    "psf_fit_radius_px": 6,
+    "neighbor_radii_px": [
+      5.0,
+      10.0,
+      20.0
+    ],
+    "nn_k": 3,
+    "struct_tensor_sigma": 2.0,
+    "hu_patch_radius_px": 5,
+    "n_hu_moments": 4,
+    "tables_subdir": "tables",
+    "manifest_subdir": "artifacts/manifests",
+    "write_overlays": true,
+    "project_config_version": "nb03v11_fullwell_nb04v3",
+    "preprocessing_registry_version": "v11_fullwell",
+    "detector_registry_version": "v11_fullwell_rawadu",
+    "feature_registry_version": "v3_fullwell_nb04",
+    "annotation_registry_version": "v6_nb02",
+    "matching_registry_version": "v6_frozen"
+  },
+  "base_provenance": {
+    "run_id": "nb03_20260124T024537Z_066ded0c",
+    "project_config_version": "nb03v11_fullwell_nb04v3",
+    "preprocessing_registry_version": "v11_fullwell",
+    "detector_registry_version": "v11_fullwell_rawadu",
+    "feature_registry_version": "v3_fullwell_nb04",
+    "annotation_registry_version": "v6_nb02",
+    "matching_registry_version": "v6_frozen",
+    "code_git_commit": null,
+    "merge_radius_px": 5.0,
+    "truth_match_radius_px": null,
+    "created_at_utc": "2026-01-24T02:45:37.256365+00:00"
+  },
+  "created_at_utc": "2026-01-24T04:13:41.630771+00:00"
+}
