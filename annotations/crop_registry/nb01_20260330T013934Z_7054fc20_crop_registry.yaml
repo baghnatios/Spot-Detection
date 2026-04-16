@@ -1,0 +1,802 @@
+format: spotmeta_crop_registry
+n_rows: 50
+records:
+- crop_id: crop_C8_9bd27518736b
+  dataset_id: dataset_default
+  well_id: C8
+  well_ymin_px: 0
+  well_xmin_px: 5120
+  well_ymax_px: 512
+  well_xmax_px: 5632
+  selection_tags:
+  - bright
+  - dense
+  - edge_artifact
+  - mixed
+  selection_rationale: image-driven initial crop; primary_tag=mixed; mean=4748.268;
+    std=4065.443; q99=17696.000; edge=369.154; closepair=1317.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_C8_ee618c955453
+  dataset_id: dataset_default
+  well_id: C8
+  well_ymin_px: 0
+  well_xmin_px: 5632
+  well_ymax_px: 512
+  well_xmax_px: 6144
+  selection_tags:
+  - bright
+  - dense
+  - edge_artifact
+  selection_rationale: image-driven initial crop; primary_tag=bright; mean=5612.499;
+    std=4517.890; q99=20752.000; edge=415.828; closepair=1313.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_C8_2b6411e62d9d
+  dataset_id: dataset_default
+  well_id: C8
+  well_ymin_px: 0
+  well_xmin_px: 6656
+  well_ymax_px: 512
+  well_xmax_px: 7168
+  selection_tags:
+  - bright
+  - dense
+  - edge_artifact
+  selection_rationale: image-driven initial crop; primary_tag=edge_artifact; mean=6135.642;
+    std=4367.002; q99=18816.000; edge=459.042; closepair=1318.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_C8_49b3266fc66f
+  dataset_id: dataset_default
+  well_id: C8
+  well_ymin_px: 0
+  well_xmin_px: 7168
+  well_ymax_px: 512
+  well_xmax_px: 7680
+  selection_tags:
+  - bright
+  - dense
+  - edge_artifact
+  selection_rationale: image-driven initial crop; primary_tag=dense; mean=6019.374;
+    std=4657.119; q99=19088.000; edge=505.612; closepair=1312.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_C8_0adf818b2b6b
+  dataset_id: dataset_default
+  well_id: C8
+  well_ymin_px: 256
+  well_xmin_px: 4352
+  well_ymax_px: 768
+  well_xmax_px: 4864
+  selection_tags:
+  - bright
+  - close_pair
+  - dense
+  - mixed
+  - spot_rich
+  selection_rationale: image-driven initial crop; primary_tag=mixed; mean=4152.388;
+    std=3770.817; q99=15744.000; edge=335.793; closepair=1321.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_C8_d2dda0e65f3a
+  dataset_id: dataset_default
+  well_id: C8
+  well_ymin_px: 512
+  well_xmin_px: 6656
+  well_ymax_px: 1024
+  well_xmax_px: 7168
+  selection_tags:
+  - bright
+  - close_pair
+  - dense
+  - mixed
+  - spot_rich
+  selection_rationale: image-driven initial crop; primary_tag=mixed; mean=4036.346;
+    std=3651.986; q99=15600.000; edge=301.102; closepair=1324.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_C8_70420ab6a23a
+  dataset_id: dataset_default
+  well_id: C8
+  well_ymin_px: 512
+  well_xmin_px: 7168
+  well_ymax_px: 1024
+  well_xmax_px: 7680
+  selection_tags:
+  - bright
+  - close_pair
+  - dense
+  - mixed
+  - spot_rich
+  selection_rationale: image-driven initial crop; primary_tag=mixed; mean=4515.104;
+    std=3734.417; q99=15680.000; edge=358.574; closepair=1321.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_C8_d71f1d65aa4c
+  dataset_id: dataset_default
+  well_id: C8
+  well_ymin_px: 1024
+  well_xmin_px: 4608
+  well_ymax_px: 1536
+  well_xmax_px: 5120
+  selection_tags:
+  - bright
+  - close_pair
+  - dense
+  - mixed
+  - spot_rich
+  selection_rationale: image-driven initial crop; primary_tag=mixed; mean=3550.899;
+    std=3554.679; q99=16208.000; edge=300.779; closepair=1328.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_C8_3f4741bac138
+  dataset_id: dataset_default
+  well_id: C8
+  well_ymin_px: 1280
+  well_xmin_px: 5632
+  well_ymax_px: 1792
+  well_xmax_px: 6144
+  selection_tags:
+  - bright
+  - close_pair
+  - mixed
+  - spot_rich
+  selection_rationale: image-driven initial crop; primary_tag=mixed; mean=3259.898;
+    std=3337.409; q99=14992.000; edge=272.531; closepair=1326.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_C8_826cf2b61af8
+  dataset_id: dataset_default
+  well_id: C8
+  well_ymin_px: 1536
+  well_xmin_px: 2304
+  well_ymax_px: 2048
+  well_xmax_px: 2816
+  selection_tags:
+  - bright
+  - close_pair
+  - dense
+  - mixed
+  - spot_rich
+  selection_rationale: image-driven initial crop; primary_tag=mixed; mean=3726.997;
+    std=3542.589; q99=15760.000; edge=304.875; closepair=1324.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_C8_a16441f9cb61
+  dataset_id: dataset_default
+  well_id: C8
+  well_ymin_px: 1792
+  well_xmin_px: 1792
+  well_ymax_px: 2304
+  well_xmax_px: 2304
+  selection_tags:
+  - bright
+  - close_pair
+  - dense
+  - mixed
+  - spot_rich
+  selection_rationale: image-driven initial crop; primary_tag=mixed; mean=3924.272;
+    std=3958.614; q99=17408.000; edge=318.843; closepair=1324.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_C8_7c6b50d894ab
+  dataset_id: dataset_default
+  well_id: C8
+  well_ymin_px: 1792
+  well_xmin_px: 2816
+  well_ymax_px: 2304
+  well_xmax_px: 3328
+  selection_tags:
+  - bright
+  - close_pair
+  - dense
+  - mixed
+  - spot_rich
+  selection_rationale: image-driven initial crop; primary_tag=mixed; mean=3892.887;
+    std=3639.422; q99=15872.000; edge=295.988; closepair=1321.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_C8_2b359db36154
+  dataset_id: dataset_default
+  well_id: C8
+  well_ymin_px: 1792
+  well_xmin_px: 5632
+  well_ymax_px: 2304
+  well_xmax_px: 6144
+  selection_tags:
+  - bright
+  - close_pair
+  - dense
+  - mixed
+  - spot_rich
+  selection_rationale: image-driven initial crop; primary_tag=mixed; mean=3158.226;
+    std=3566.142; q99=15200.000; edge=274.392; closepair=1327.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_C8_d18881d50a37
+  dataset_id: dataset_default
+  well_id: C8
+  well_ymin_px: 2048
+  well_xmin_px: 2304
+  well_ymax_px: 2560
+  well_xmax_px: 2816
+  selection_tags:
+  - bright
+  - close_pair
+  - dense
+  - mixed
+  - spot_rich
+  selection_rationale: image-driven initial crop; primary_tag=mixed; mean=4013.290;
+    std=3942.613; q99=16624.000; edge=326.581; closepair=1321.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_C8_495ce548be49
+  dataset_id: dataset_default
+  well_id: C8
+  well_ymin_px: 2048
+  well_xmin_px: 3840
+  well_ymax_px: 2560
+  well_xmax_px: 4352
+  selection_tags:
+  - bright
+  - dense
+  - mixed
+  - spot_rich
+  selection_rationale: image-driven initial crop; primary_tag=mixed; mean=3464.992;
+    std=3928.071; q99=17088.000; edge=306.953; closepair=1320.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_C8_e4412c5963fc
+  dataset_id: dataset_default
+  well_id: C8
+  well_ymin_px: 2304
+  well_xmin_px: 2816
+  well_ymax_px: 2816
+  well_xmax_px: 3328
+  selection_tags:
+  - bright
+  - close_pair
+  - dense
+  - mixed
+  - spot_rich
+  selection_rationale: image-driven initial crop; primary_tag=mixed; mean=3858.243;
+    std=3922.452; q99=17104.000; edge=309.878; closepair=1321.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_C8_f4106c2060df
+  dataset_id: dataset_default
+  well_id: C8
+  well_ymin_px: 2560
+  well_xmin_px: 1536
+  well_ymax_px: 3072
+  well_xmax_px: 2048
+  selection_tags:
+  - bright
+  - close_pair
+  - dense
+  - mixed
+  - spot_rich
+  selection_rationale: image-driven initial crop; primary_tag=mixed; mean=3244.510;
+    std=3423.586; q99=15264.000; edge=243.822; closepair=1327.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_C8_67faf4382509
+  dataset_id: dataset_default
+  well_id: C8
+  well_ymin_px: 2560
+  well_xmin_px: 3584
+  well_ymax_px: 3072
+  well_xmax_px: 4096
+  selection_tags:
+  - bright
+  - close_pair
+  - dense
+  - mixed
+  - spot_rich
+  selection_rationale: image-driven initial crop; primary_tag=mixed; mean=3385.189;
+    std=3662.713; q99=15264.000; edge=291.691; closepair=1325.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_C8_f153ba1a9683
+  dataset_id: dataset_default
+  well_id: C8
+  well_ymin_px: 3072
+  well_xmin_px: 4608
+  well_ymax_px: 3584
+  well_xmax_px: 5120
+  selection_tags:
+  - moderate
+  selection_rationale: image-driven initial crop; primary_tag=moderate; mean=2579.767;
+    std=3079.376; q99=14384.000; edge=200.274; closepair=1314.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_C8_4f61d31afbef
+  dataset_id: dataset_default
+  well_id: C8
+  well_ymin_px: 3328
+  well_xmin_px: 2816
+  well_ymax_px: 3840
+  well_xmax_px: 3328
+  selection_tags:
+  - bright
+  - close_pair
+  - dense
+  - mixed
+  - spot_rich
+  selection_rationale: image-driven initial crop; primary_tag=mixed; mean=3265.334;
+    std=3564.244; q99=15568.000; edge=275.492; closepair=1322.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_C8_f7f7c4173888
+  dataset_id: dataset_default
+  well_id: C8
+  well_ymin_px: 4096
+  well_xmin_px: 6656
+  well_ymax_px: 4608
+  well_xmax_px: 7168
+  selection_tags:
+  - close_pair
+  - spot_rich
+  selection_rationale: image-driven initial crop; primary_tag=spot_rich; mean=2345.729;
+    std=2413.324; q99=10752.000; edge=165.561; closepair=1336.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_C8_b8d96a1ddedc
+  dataset_id: dataset_default
+  well_id: C8
+  well_ymin_px: 4608
+  well_xmin_px: 2304
+  well_ymax_px: 5120
+  well_xmax_px: 2816
+  selection_tags:
+  - misc_random
+  - random_interior
+  selection_rationale: image-driven initial crop; primary_tag=random_interior; mean=3073.788;
+    std=3259.507; q99=14528.000; edge=261.207; closepair=1312.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_C8_89182c269f4e
+  dataset_id: dataset_default
+  well_id: C8
+  well_ymin_px: 6656
+  well_xmin_px: 2304
+  well_ymax_px: 7168
+  well_xmax_px: 2816
+  selection_tags:
+  - close_pair
+  - dim
+  - sparse
+  selection_rationale: image-driven initial crop; primary_tag=close_pair; mean=1930.548;
+    std=2092.871; q99=10224.000; edge=137.807; closepair=1336.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_C8_1ffcd18f3eed
+  dataset_id: dataset_default
+  well_id: C8
+  well_ymin_px: 6912
+  well_xmin_px: 7168
+  well_ymax_px: 7424
+  well_xmax_px: 7680
+  selection_tags:
+  - dim
+  - sparse
+  selection_rationale: image-driven initial crop; primary_tag=sparse; mean=1482.426;
+    std=1207.657; q99=8752.000; edge=77.345; closepair=1311.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_C8_f68e7e5709ad
+  dataset_id: dataset_default
+  well_id: C8
+  well_ymin_px: 7168
+  well_xmin_px: 1280
+  well_ymax_px: 7680
+  well_xmax_px: 1792
+  selection_tags:
+  - close_pair
+  - dim
+  - sparse
+  selection_rationale: image-driven initial crop; primary_tag=dim; mean=1271.067;
+    std=1107.509; q99=7472.000; edge=65.695; closepair=1323.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_D8_a2c2a0ac3b77
+  dataset_id: dataset_default
+  well_id: D8
+  well_ymin_px: 0
+  well_xmin_px: 2560
+  well_ymax_px: 512
+  well_xmax_px: 3072
+  selection_tags:
+  - bright
+  - close_pair
+  - dense
+  - edge_artifact
+  - mixed
+  - spot_rich
+  selection_rationale: image-driven initial crop; primary_tag=mixed; mean=4688.659;
+    std=4103.703; q99=15872.000; edge=410.731; closepair=1321.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_D8_581c052a15b9
+  dataset_id: dataset_default
+  well_id: D8
+  well_ymin_px: 0
+  well_xmin_px: 3328
+  well_ymax_px: 512
+  well_xmax_px: 3840
+  selection_tags:
+  - bright
+  - dense
+  - edge_artifact
+  selection_rationale: image-driven initial crop; primary_tag=edge_artifact; mean=4978.838;
+    std=4359.854; q99=17024.000; edge=457.720; closepair=1318.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_D8_0bfd1412787c
+  dataset_id: dataset_default
+  well_id: D8
+  well_ymin_px: 0
+  well_xmin_px: 4864
+  well_ymax_px: 512
+  well_xmax_px: 5376
+  selection_tags:
+  - bright
+  - close_pair
+  - dense
+  - edge_artifact
+  - mixed
+  - spot_rich
+  selection_rationale: image-driven initial crop; primary_tag=mixed; mean=4516.842;
+    std=3984.019; q99=17424.000; edge=337.969; closepair=1328.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_D8_22101f2b01d3
+  dataset_id: dataset_default
+  well_id: D8
+  well_ymin_px: 0
+  well_xmin_px: 5376
+  well_ymax_px: 512
+  well_xmax_px: 5888
+  selection_tags:
+  - bright
+  - close_pair
+  - dense
+  - edge_artifact
+  - mixed
+  - spot_rich
+  selection_rationale: image-driven initial crop; primary_tag=mixed; mean=4554.978;
+    std=3880.078; q99=16224.000; edge=354.425; closepair=1330.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_D8_2194e1b20725
+  dataset_id: dataset_default
+  well_id: D8
+  well_ymin_px: 256
+  well_xmin_px: 4096
+  well_ymax_px: 768
+  well_xmax_px: 4608
+  selection_tags:
+  - bright
+  - close_pair
+  - dense
+  - mixed
+  - spot_rich
+  selection_rationale: image-driven initial crop; primary_tag=mixed; mean=4995.593;
+    std=4241.965; q99=16905.119; edge=410.109; closepair=1323.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_D8_e353a7f52a4c
+  dataset_id: dataset_default
+  well_id: D8
+  well_ymin_px: 512
+  well_xmin_px: 1792
+  well_ymax_px: 1024
+  well_xmax_px: 2304
+  selection_tags:
+  - bright
+  - close_pair
+  - dense
+  - mixed
+  - spot_rich
+  selection_rationale: image-driven initial crop; primary_tag=mixed; mean=3879.339;
+    std=3852.010; q99=15584.000; edge=349.803; closepair=1326.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_D8_7946234d28cd
+  dataset_id: dataset_default
+  well_id: D8
+  well_ymin_px: 512
+  well_xmin_px: 2304
+  well_ymax_px: 1024
+  well_xmax_px: 2816
+  selection_tags:
+  - bright
+  - close_pair
+  - dense
+  - mixed
+  - spot_rich
+  selection_rationale: image-driven initial crop; primary_tag=mixed; mean=4812.591;
+    std=4409.571; q99=17360.000; edge=436.393; closepair=1323.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_D8_4c74cd16418b
+  dataset_id: dataset_default
+  well_id: D8
+  well_ymin_px: 512
+  well_xmin_px: 5376
+  well_ymax_px: 1024
+  well_xmax_px: 5888
+  selection_tags:
+  - bright
+  - close_pair
+  - dense
+  - mixed
+  - spot_rich
+  selection_rationale: image-driven initial crop; primary_tag=mixed; mean=4642.289;
+    std=4255.466; q99=17200.000; edge=382.516; closepair=1321.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_D8_d6b9fcfd1898
+  dataset_id: dataset_default
+  well_id: D8
+  well_ymin_px: 512
+  well_xmin_px: 7168
+  well_ymax_px: 1024
+  well_xmax_px: 7680
+  selection_tags:
+  - bright
+  - close_pair
+  - dense
+  - mixed
+  - spot_rich
+  selection_rationale: image-driven initial crop; primary_tag=mixed; mean=4578.691;
+    std=3697.218; q99=15936.000; edge=308.702; closepair=1325.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_D8_c17c7bfa803c
+  dataset_id: dataset_default
+  well_id: D8
+  well_ymin_px: 768
+  well_xmin_px: 2816
+  well_ymax_px: 1280
+  well_xmax_px: 3328
+  selection_tags:
+  - close_pair
+  - dense
+  - mixed
+  - spot_rich
+  selection_rationale: image-driven initial crop; primary_tag=mixed; mean=4220.312;
+    std=3712.669; q99=14896.000; edge=356.782; closepair=1328.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_D8_3025710764f0
+  dataset_id: dataset_default
+  well_id: D8
+  well_ymin_px: 768
+  well_xmin_px: 4096
+  well_ymax_px: 1280
+  well_xmax_px: 4608
+  selection_tags:
+  - bright
+  - dense
+  - mixed
+  selection_rationale: image-driven initial crop; primary_tag=mixed; mean=4372.368;
+    std=4251.349; q99=17616.000; edge=375.236; closepair=1318.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_D8_0a071dcf71bd
+  dataset_id: dataset_default
+  well_id: D8
+  well_ymin_px: 1024
+  well_xmin_px: 2048
+  well_ymax_px: 1536
+  well_xmax_px: 2560
+  selection_tags:
+  - bright
+  - close_pair
+  - dense
+  - mixed
+  - spot_rich
+  selection_rationale: image-driven initial crop; primary_tag=mixed; mean=4626.213;
+    std=4314.545; q99=17632.000; edge=433.270; closepair=1327.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_D8_749f81e4cc21
+  dataset_id: dataset_default
+  well_id: D8
+  well_ymin_px: 1280
+  well_xmin_px: 2560
+  well_ymax_px: 1792
+  well_xmax_px: 3072
+  selection_tags:
+  - bright
+  - close_pair
+  - dense
+  - mixed
+  - spot_rich
+  selection_rationale: image-driven initial crop; primary_tag=mixed; mean=4565.296;
+    std=4380.154; q99=17833.119; edge=421.355; closepair=1321.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_D8_c59003e258cd
+  dataset_id: dataset_default
+  well_id: D8
+  well_ymin_px: 1280
+  well_xmin_px: 3584
+  well_ymax_px: 1792
+  well_xmax_px: 4096
+  selection_tags:
+  - bright
+  - dense
+  selection_rationale: image-driven initial crop; primary_tag=dense; mean=4288.688;
+    std=4752.614; q99=21440.000; edge=414.493; closepair=1313.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_D8_d584a63884c5
+  dataset_id: dataset_default
+  well_id: D8
+  well_ymin_px: 1792
+  well_xmin_px: 2560
+  well_ymax_px: 2304
+  well_xmax_px: 3072
+  selection_tags:
+  - bright
+  - close_pair
+  - dense
+  - mixed
+  - spot_rich
+  selection_rationale: image-driven initial crop; primary_tag=mixed; mean=4905.126;
+    std=4638.871; q99=18800.000; edge=453.797; closepair=1326.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_D8_621c9e41edec
+  dataset_id: dataset_default
+  well_id: D8
+  well_ymin_px: 2048
+  well_xmin_px: 3072
+  well_ymax_px: 2560
+  well_xmax_px: 3584
+  selection_tags:
+  - bright
+  - dense
+  - mixed
+  selection_rationale: image-driven initial crop; primary_tag=mixed; mean=4607.339;
+    std=4389.204; q99=17696.000; edge=409.009; closepair=1318.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_D8_e31ec3e1d35d
+  dataset_id: dataset_default
+  well_id: D8
+  well_ymin_px: 2304
+  well_xmin_px: 1792
+  well_ymax_px: 2816
+  well_xmax_px: 2304
+  selection_tags:
+  - bright
+  - dense
+  - misc_random
+  - random_interior
+  selection_rationale: image-driven initial crop; primary_tag=random_interior; mean=4126.771;
+    std=4107.899; q99=17744.000; edge=383.614; closepair=1317.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_D8_4e79e101140b
+  dataset_id: dataset_default
+  well_id: D8
+  well_ymin_px: 2304
+  well_xmin_px: 2560
+  well_ymax_px: 2816
+  well_xmax_px: 3072
+  selection_tags:
+  - bright
+  - close_pair
+  - dense
+  - mixed
+  - spot_rich
+  selection_rationale: image-driven initial crop; primary_tag=mixed; mean=4596.967;
+    std=4633.523; q99=18320.000; edge=429.712; closepair=1321.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_D8_2019d4c516b9
+  dataset_id: dataset_default
+  well_id: D8
+  well_ymin_px: 2816
+  well_xmin_px: 1792
+  well_ymax_px: 3328
+  well_xmax_px: 2304
+  selection_tags:
+  - bright
+  - dense
+  - mixed
+  selection_rationale: image-driven initial crop; primary_tag=mixed; mean=4629.086;
+    std=4478.934; q99=17536.000; edge=461.005; closepair=1319.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_D8_ee6070ad5c1b
+  dataset_id: dataset_default
+  well_id: D8
+  well_ymin_px: 3072
+  well_xmin_px: 2816
+  well_ymax_px: 3584
+  well_xmax_px: 3328
+  selection_tags:
+  - close_pair
+  - moderate
+  selection_rationale: image-driven initial crop; primary_tag=moderate; mean=2947.362;
+    std=3432.464; q99=14720.000; edge=248.940; closepair=1328.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_D8_efe3a4ee13ea
+  dataset_id: dataset_default
+  well_id: D8
+  well_ymin_px: 5120
+  well_xmin_px: 5632
+  well_ymax_px: 5632
+  well_xmax_px: 6144
+  selection_tags:
+  - dim
+  - sparse
+  selection_rationale: image-driven initial crop; primary_tag=dim; mean=1110.712;
+    std=692.811; q99=2112.000; edge=46.190; closepair=1313.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_D8_a0315ff01f4a
+  dataset_id: dataset_default
+  well_id: D8
+  well_ymin_px: 5376
+  well_xmin_px: 6656
+  well_ymax_px: 5888
+  well_xmax_px: 7168
+  selection_tags:
+  - close_pair
+  - dim
+  - sparse
+  selection_rationale: image-driven initial crop; primary_tag=close_pair; mean=1726.638;
+    std=1617.792; q99=8496.000; edge=102.448; closepair=1343.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_D8_fbb89b0a07aa
+  dataset_id: dataset_default
+  well_id: D8
+  well_ymin_px: 6656
+  well_xmin_px: 2304
+  well_ymax_px: 7168
+  well_xmax_px: 2816
+  selection_tags:
+  - bright
+  - dense
+  selection_rationale: image-driven initial crop; primary_tag=bright; mean=4071.931;
+    std=5782.598; q99=28496.000; edge=299.527; closepair=1311.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_D8_fefe406bf798
+  dataset_id: dataset_default
+  well_id: D8
+  well_ymin_px: 6912
+  well_xmin_px: 7168
+  well_ymax_px: 7424
+  well_xmax_px: 7680
+  selection_tags:
+  - close_pair
+  - dim
+  - sparse
+  - spot_rich
+  selection_rationale: image-driven initial crop; primary_tag=spot_rich; mean=1346.813;
+    std=86.228; q99=1568.000; edge=50.764; closepair=1355.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
+- crop_id: crop_D8_40be9231442f
+  dataset_id: dataset_default
+  well_id: D8
+  well_ymin_px: 7168
+  well_xmin_px: 6656
+  well_ymax_px: 7680
+  well_xmax_px: 7168
+  selection_tags:
+  - dim
+  - sparse
+  selection_rationale: image-driven initial crop; primary_tag=sparse; mean=1408.526;
+    std=404.621; q99=1648.000; edge=54.150; closepair=1311.0; candidate_rank_pool_size=871
+  annotator_status: pending
+  crop_registry_version: v1_draft
