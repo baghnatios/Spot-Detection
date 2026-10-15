@@ -13,4 +13,4 @@ Launch Jupyter from the checkout or `notebooks/`. Notebook 03/04 can alternative
 
 Scientific Python and optional model dependencies are imported in setup cells. This repository does not yet provide a fully pinned environment. A successful clone or path check does not demonstrate end-to-end reproduction of model results. Review setup cells before installing dependencies and running training.
 
-The separate `../Local Notebook/spot_detection_pipeline_v3(1).ipynb` is an older Google Colab/Drive pipeline retained as a distinct source snapshot. It is not a replacement for the staged published pipeline above. Its Colab mount paths are intentional platform-specific code.
+An older Google Colab/Drive pipeline, `spot_detection_pipeline_v3(1).ipynb`, is retained separately in the local research workspace and is not included in this repository. It is not a replacement for the staged published pipeline above. Its Colab mount paths are intentional platform-specific code.
